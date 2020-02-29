@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#grid-container {
+    display: grid;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px 60px;
+}
+
+.grid-item {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
