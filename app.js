@@ -16,6 +16,7 @@ colorMenu.addEventListener('click', () =>{
         selected = '';
         event.target.style.border = "7px solid gold";
         selected = event.target.id;
+        console.log(event.target);
     }
 });
 
