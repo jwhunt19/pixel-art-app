@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: monospace;
+    font-weight: 900;
 }
 
 main {
@@ -68,14 +70,12 @@ main {
     bottom: 90px;
     font-size: 25px;
     border-radius: 25%;
-    background-color: dimgray;
+    background-color: rgb(240, 240, 240);
     outline: none;
 }
 
 .credit {
     position: absolute;
-    font-family: monospace;
-    font-weight: 900;
     bottom: 0;
     font-size: 22px;
     color: rgb(218, 218, 218);
